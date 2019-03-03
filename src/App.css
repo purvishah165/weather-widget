@@ -56,9 +56,13 @@ body {
   text-align: center;;
 }
 
+.weather-img {
+  flex: 0;
+}
+
 .weather-img img {
-  width: 100%;
-  height: auto;
+  width: 80px;
+  height: 80px;
 }
 
 .temperature-value {
@@ -69,6 +73,7 @@ body {
 
 .weather-container{
   text-align: left;
+  height: 100px;
 }
 .form-group {
   display: flex;
